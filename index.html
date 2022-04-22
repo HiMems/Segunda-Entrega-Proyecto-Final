@@ -4,64 +4,177 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Laws Music</title>
 </head>
 <body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub - Lino Requena</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@200&     family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" 
-    rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-</head>
-<body>
-    
+<header>
+  <!--menu de navegacion-->
+  <header class="p-3 mb-3 border-bottom" style="background-color: ;">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
 
-    <header id="header">
-        <div>
-            <img class="imagen" src="https://tofuu.getjusto.com/orioneat-prod-resized/jX4dBood4Gn5nzn9M-200-x.webp" alt="lovdo">
-        </div>
-
-    </header>
-
-    <div>
-        <nav>
-        <ul id="lista">
-        <li><a href="#">Pedidos</a></li>
-        <li><a href="#">Información</a></li>
-        <li><a href="#">Carta</a></li>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 link-dark">Inicio</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Premium</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Ayuda</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Descargar</a></li>
         </ul>
-        </nav>
-    </div>
-    
 
-    <main>
-        <div>
-        <h1>Nuestra especialidad</h1>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Buscar" aria-label="Search">
+        </form>
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./img/dog-3139757-1280.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
+            <li><a class="dropdown-item" href="playlist.html">Play List</a></li>
+            <li><a class="dropdown-item" href="#">Configuracion</a></li>
+            <li><a class="dropdown-item" href="#">Perfil</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+          </ul>
         </div>
-   
-
-    <br>
-    
-    <div class="animate__animated animate__bounce">
-
-        <img class="lovdoimagen" src="https://tofuu.getjusto.com/orioneat-prod-resized/82teoHzbPEZuDjJ2J-x-1800.webp" alt="aaa">
-        
-    </main>
+      </div>
     </div>
+  </header>
+      <!--menu de navegacion-->
+</header>
+<main>
+  <!--carousel de imagenes-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/1604604873248-la-vela-puercabanner1920x720-1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/7a90be3d0f9290f715b92a0bae4e9413.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/gustavo-cerati-635.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       <!--fin de carousel de imagenes-->
+</main>
+  <!--cards-->
 
-</body>
-</html>
+<div class="tarjetas">
+    <div class="contenido">
+        <div class="container_card">
+          <div class="card c2">
+            <div class="icono">
+              <i class="fa-solid fa-compact-disc"></i>
+            </div>
+             <div class="informacion">
+                 <p>Gustavo Adrián Cerati fue un músico, cantautor y productor discográfico argentino que obtuvo reconocimiento internacional por haber sido el líder, vocalista, compositor y guitarrista de la banda de rock</p>
+                      <input type="button" value="Ver mas">
+             </div>
+          </div>
+        </div>
+       </div>
+       
+       
+       <div class="contenido">
+        <div class="container_card">
+          <div class="card c3">
+            <div class="icono">
+              <i class="fa-solid fa-compact-disc"></i>
+            </div>
+             <div class="informacion">
+                 <p>La Vela Puerca es una banda uruguaya de rock y fue formada en 1995, integrada por Sebastián Teysera, alias El Enano; Nicolás Mandril Lieutier; Sebastián Cebolla Cebreiro; José Pepe Canedo; Rafael Di Bello; Santiago Butler; Carlos Coli Quijano y Alejandro Piccone.</p>
+                      <input type="button" value="Ver mas">
+             </div>
+          </div>
+        </div>
+       </div>
+
+       <div class="contenido">
+        <div class="container_card">
+          <div class="card c1">
+            <div class="icono">
+              <i class="fa-solid fa-compact-disc"></i>
+            </div>
+             <div class="informacion">
+                 <p>Billie Eilish Pirate Baird O'Connell es una cantante y compositora estadounidense. Adquirió fama como artista cuando tenía 13 años, a raíz del sencillo «Ocean Eyes» que se publicó en 2015 en</p>
+                      <input type="button" value="Ver mas">
+             </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<h1>Recomendado</h1>
+
+
+<!--productos destacados-->
+
+    <!--producto 1-->
+<div class="destacado">
+  <div class="card-group">
+    <div class="card_2">
+      <img src="./img/kiss.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Entradas 17/3/23</h5>
+        <p class="card-text"><small class="text-muted">Precio de entrada $58.865,00</small></p>
+        <input type="button" value="Comprar">
+      </div>
+    </div>
+    <!--producto 2-->
+    <div class="card_2">
+      <img src="./img/acdc.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Entradas 22/12/22</h5>
+        <p class="card-text"><small class="text-muted">Precio de entrada $27.665,00</small></p>
+        <input type="button" value="Comprar">
+      </div>
+    </div>
+    <!--producto 3-->
+    <div class="card_2">
+      <img src="./img/metalica.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Entradas 15/5/22</h5>
+        <p class="card-text"><small class="text-muted">Precio de entrada $90.944,00</small></p>
+        <input type="button" value="Comprar">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--productos destacados-->
+<br>
+
+<footer class="text-center text-white"  > 
+  <section class="mb-4 p-3" style="background-color: #000000;" > 
+      <p>
+          Laws Music
+      </p>
+  <div class="text-center p-3" style="background-color: #000000">
+    © 2022 Copyright:
+    <a class="text-white" href="https://www.spotify.com/">Laws Music</a>
+  </div>
+
+</footer>
+
+<!--cards-->
+
+<!--scrip-->
+    <script src="https://kit.fontawesome.com/de302c6c81.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!--scrip-->
 </body>
 </html>
